@@ -32,6 +32,7 @@ cd GraphGeo
 
 # unzip data file in "New_York"
 unzip ./datasets/New_York/data.zip
+unzip ./datasets/New_York/last_traceroute.zip
 
 # loda data from the region and execute IP clustering. 
 python load_and_cluster.py --dataset "New_York" 
